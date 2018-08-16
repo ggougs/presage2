@@ -1,3 +1,94 @@
 body{
-    background-color: aquamarine ;
+    background: url(../img/nourriture.jpg) no-repeat; 
+    background-size: cover; 
+}
+.nav{
+    display: flex; 
+    justify-content: space-between; 
+    background:#2A170E; 
+
+}
+.nav h2{
+    margin-left: 10%; 
+    color: white; 
+    font-family: 'Sawarabi Mincho', sans-serif;
+    font-size: 25px; 
+}
+.nav nav{
+    padding-top: 20px; 
+    margin-right: 20%; 
+    display: flex; 
+   
+}
+
+.nav nav a{
+    margin-right: 30px; 
+    color: lightgrey; 
+    font-family: 'Sawarabi Mincho', sans-serif;
+    text-decoration: none; 
+    font-size: 20px;    
+}
+
+.nav nav a:hover{
+    color: goldenrod; 
+}
+
+main h1 {
+    color: #2A170E; 
+    width: 35%; 
+    font-size: 50px; 
+    font-family: 'Sawarabi Mincho', sans-serif;
+    margin-top: 10%; 
+    margin-left: 35%; 
+    border-bottom: 2px #2A170E solid; 
+    padding-bottom: 3%; 
+}
+main p{
+    color: #2A170E; 
+    text-align: center; 
+    font-size: 30px; 
+}
+
+.lien a{
+  
+    display: flex; 
+    margin-left: 47%;
+    margin-bottom: 20px; 
+    font-size: 20px; 
+    font-family: 'Sawarabi Mincho', sans-serif;
+    text-decoration: none; 
+}
+
+.lien .menu{
+    width: 150px; 
+    color: white; 
+    border-radius: 30px; 
+    border: 2px #AE8648 solid;
+    padding-left: 20px; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    background-color: #AE8648; 
+    
+}
+
+.lien .propos{
+    width: 130px; 
+    color: #AE8648; 
+    border-radius: 30px; 
+    border: 2px white solid;
+    padding-left: 40px; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    background-color: white;  
+}
+
+.lien .propos:hover{
+    background-color: #93322A;  
+    border: 2px #93322A solid;
+    color: white; 
+}
+.lien .menu:hover{
+    background-color: #93322A;
+    border: 2px #93322A solid;
+    color: white; 
 }
